@@ -71,7 +71,7 @@ class Card
    } 
    
    /*
-    * accessor methods for get value and suit
+    * accessor methods for get value and suit and errorFlag
     * */
    public char getValue()
    {
@@ -82,6 +82,11 @@ class Card
    public Suit getSuit()
    {
       return suit;
+   }
+
+   public boolean getErrorFlag()
+   {
+      return errorFlag;
    }
    /*a private helper method that returns true or false, depending on the legality of the 
     * parameters.  
