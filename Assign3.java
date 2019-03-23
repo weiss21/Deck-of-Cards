@@ -13,12 +13,13 @@ class Card
      CLUBS,
      SPADES,
      HEARTS,
-     DIAMONDS;   
-     //Include three members char value,Suit suit,boolean errorFlag.
-     private char value;
-     private Suit suit;
-     private boolean errorFlag;    
+     DIAMONDS;     
   }
+  
+  //Include three members char value,Suit suit,boolean errorFlag. 
+  private char value;
+  private Suit suit;
+  private boolean errorFlag; 
   /*Card(char value, Suit suit) - The constructor should call the proper mutator(s).  
   Overload this to cope with a client that wants to instantiate without parameters and use 'A' and 'spades' as the default value and suit when not supplied.  Provide at least two constructors -- no parameters and all parameters -- or more if you wish.  
   Because we have the errorFlag member, the constuctor (via the mutator), can set that member when it gets bad data; it does not have to assign default values upon receipt of bad data.  
@@ -27,6 +28,12 @@ class Card
    {
         
    } 
+   
+   public Card()
+   {
+      this.suit = Suit.SPADES;
+      this.value = 'A';
+   }
    /*string toString() - a stringizer that the client can use prior to displaying the card.  
    It provides a clean representation of the card.  If errorFlag == true, 
    it should return correspondingly reasonable reflection of this fact (something like "[ invalid ]" rather than a suit and value). */
