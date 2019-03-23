@@ -41,7 +41,7 @@
    }
 
 /*
- * One object of class Hand represents a hand in a card game. It is compri
+ * One object of class Hand represents a hand in a card game. 
  */ 
 class Hand
 {
@@ -153,19 +153,12 @@ class Card
      DIAMONDS  
   };
   
-  /*Card(char value, Suit suit) - The constructor should call the proper mutator(s).  
-  Overload this to cope with a client that wants to instantiate without parameters and use 'A' 
-  and 'spades' as the default value and suit when not supplied.  Provide at least two constructors
-   -- no parameters and all parameters -- or more if you wish.  
-  Because we have the errorFlag member, the constuctor (via the mutator), can set that member 
-  when it gets bad data; it does not have to assign default values upon receipt of bad data.  
-  This is a new technique for us.  Again, default card (no parameters passed) is the ('A', spades).*/
   public Card(char value, Suit suit) 
   {
      set(value,suit);
   }
    
-   //i would suggest using {set('A', Suit.SPADES);} to keep code consistance as our default construct
+   //default constructor
    public Card() 
    {
       this('A', Suit.SPADES);
@@ -179,16 +172,15 @@ class Card
     this.value = card.value;
     this.suit = card.suit;
   }
-  
-   /*string toString() - a stringizer that the client can use prior to displaying the card.  
-   It provides a clean representation of the card.  If errorFlag == true, 
-   it should return correspondingly reasonable reflection of this fact (something like "
-   [ invalid ]" rather than a suit and value). */
+ 
+   /*
+   * This method creates a string representation of the Card object.
+   */  
    public String toString()
    {
       if (errorFlag) 
       {
-         return "**invalid**";
+         return "**illigal**";
       } else
          return getValue() + " of " + getSuit();
    }
@@ -344,10 +336,10 @@ class Deck
       int index1;
       int index2;
       int num = cards.length;
-     while( num > 0)
+      while( num > 0)
       {
-       index1 = (int)(Math.random()* cards.length); 
-       index2 = (int)(Math.random()* cards.length);  
+        index1 = (int)(Math.random()* cards.length); 
+        index2 = (int)(Math.random()* cards.length);  
         
         //swapping the elements 
         Card  = cards[index1]; 
@@ -364,6 +356,7 @@ class Deck
    {
       if (this.topCard <= 0)
         return null;
+    
       Card returnCard = this.cards[this.topCard - 1];
       this.cards[this.topCard - 1] = null;
       this.topCard--;
