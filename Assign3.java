@@ -2,6 +2,9 @@ public class Assign3
 {   
    public static void main(String[] args)
    {
+     Card legal1 = new Card();
+     Card legal2 = new Card('5', Card.Suit.SPADES);
+     Card illegal = new Card('Y', Card.Suit.SPADES);
      System.out.println("Just something");
    }
 }
@@ -35,6 +38,8 @@ class Card
   {
      set(value,suit);
   }
+   
+   //i would suggest using {set('A', Suit.SPADES);} to keep code consistance as our default construct
    public Card() 
    {
         value = 'A';
