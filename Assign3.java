@@ -3,12 +3,7 @@ import java.util.Scanner;
 public class Assign3
 {   
    public static void main(String[] args)
-   {
-
-      char[] cardType = {'A', '2', '3', '4', '5', '6', '7', 
-            '8', '9', 'T', 'J', 'Q', 'K'};
-      char cardValue;
-     
+   { 
       // Phase One Test
       //test for card to see if illegal or not
       System.out.println("Begin Phase One Test:");
@@ -58,6 +53,7 @@ public class Assign3
      
       // Test playCard() method. Play every card in testHand.
       System.out.print("\nTesting playCard(): ");
+      
       while (testHand.getNumCards() > 0) 
       {
          System.out.println("Playing: " + testHand.playCard());
@@ -81,6 +77,7 @@ public class Assign3
       deck = new Deck(2);
       deck.shuffle();
       System.out.println("\n\nShuffle two packs deck.\n");
+      
       while(true) 
       {
          if (deck.getTopCard() <= 0) 
@@ -90,6 +87,7 @@ public class Assign3
       
       // Test a single pack with shuffle()
       System.out.println("\n\nTest with 1 pack deck\n");
+      
       while (true)
       {
          if (deck2.getTopCard() <= 0)
@@ -155,6 +153,7 @@ public class Assign3
 
       // deal shuffled cards
       dealtPlayer = 0;
+      
       while (gameDeck.getTopCard() > 0)
       {
          if (dealtPlayer == numPlayers)
@@ -258,15 +257,6 @@ class Card
    } 
 
    /*
-    * This mutator method sets the errorFlag for the Card object to the given
-    * argument. 
-    */
-   public void setErrorFlag(boolean arg)
-   {
-      errorFlag = arg;
-   }
-
-   /*
     * This method returns the value for the card object.
     */
    public char getValue()
@@ -321,7 +311,6 @@ class Card
       } 
       return (this.value == card.value && this.suit == card.suit);
    }
-
 }
 
 /*
@@ -423,7 +412,6 @@ class Hand
       else
          return new Card('x', Card.Suit.SPADES);
    }
-
 }
 
 /*
