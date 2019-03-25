@@ -52,7 +52,7 @@ public class Assign3
       System.out.println(testHand.inspectCard(55));
      
       // Test playCard() method. Play every card in testHand.
-      System.out.print("\nTesting playCard(): ");
+      System.out.println("\nTesting playCard(): ");
       
       while (testHand.getNumCards() > 0) 
       {
@@ -73,7 +73,8 @@ public class Assign3
          if (deck.getTopCard() <= 0)
             break;
          System.out.print(deck.dealCard().toString() + " / ");
-      }      
+      } 
+      //re-initialize deck
       deck = new Deck(2);
       deck.shuffle();
       System.out.println("\n\nShuffle two packs deck.\n");
@@ -94,9 +95,11 @@ public class Assign3
             break;
          System.out.print(deck2.dealCard().toString() + " / ");
       }
+      //re-initialize deck
       deck2 = new Deck();
       deck2.shuffle();
       System.out.println("\n\nShuffle one packs deck.\n");
+      
       while(true) 
       {
          if(deck2.getTopCard() <= 0)
@@ -114,9 +117,9 @@ public class Assign3
       System.out.println("Begin Phase Four Test: ");
       do
       {
-      System.out.println("Enter in the number of players "
-         + "(between 1 and 10): ");
-      numPlayers = keyboard.nextInt();
+         System.out.println("Enter in the number of players "
+            + "(between 1 and 10): ");
+         numPlayers = keyboard.nextInt();
       } while (numPlayers <= 0 || numPlayers > 10);
       
       // create players
@@ -126,6 +129,7 @@ public class Assign3
          Hand newPlayer =  new Hand();
          players[i] = newPlayer;
       }
+      
       Deck gameDeck = new Deck();     
       // deal cards out until the deck is empty
       while (gameDeck.getTopCard() > 0)
@@ -148,12 +152,12 @@ public class Assign3
       System.out.println("\nResetting Deck and Shuffling: ");
       gameDeck = new Deck(); 
       gameDeck.shuffle();
+      
       for (Hand player : players)
          player.resetHand();
-
+      
       // deal shuffled cards
       dealtPlayer = 0;
-      
       while (gameDeck.getTopCard() > 0)
       {
          if (dealtPlayer == numPlayers)
@@ -468,7 +472,7 @@ class Deck
     */ 
    private static void allocateMasterPack()
    {
-   // check if masterPack has already been generated.
+      // check if masterPack has already been generated.
       if (masterPack != null)
          return;
     
