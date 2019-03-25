@@ -392,11 +392,12 @@ class Hand
       {
          if (i == this.numCards - 1)
          {
-            returnString += this.myCards[i].toString() + " )";
+            returnString += this.myCards[i].toString();
          }
          else
             returnString += this.myCards[i].toString() + ", ";
       }
+      returnString += " )";
       return returnString;
    }
 
