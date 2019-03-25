@@ -66,7 +66,7 @@ public class Assign3
       System.out.println(testHand.toString());
 
       // Phase Three Test
-      System.out.println("\n4Begin Phase Three Test:");
+      System.out.println("\nBegin Phase Three Test:");
       Deck deck = new Deck(2); // test deck with 2 pack
       Deck deck2 = new Deck(); // test deck with default
 
@@ -576,75 +576,75 @@ J of CLUBS
 
 Begin Phase Two Test
 Hand Full
-Hand = (A of DIAMONDS, 5 of SPADES, A of DIAMONDS, 2 of CLUBS, 5 of SPADES, 5 of
- SPADES, K of HEARTS, K of HEARTS, 5 of SPADES, Q of DIAMONDS, Q of DIAMONDS, 2 
-of CLUBS, 2 of CLUBS, A of DIAMONDS, Q of DIAMONDS, Q of DIAMONDS, K of HEARTS, 
-Q of DIAMONDS, K of HEARTS, A of DIAMONDS, K of HEARTS, Q of DIAMONDS, A of DIAM
-ONDS, 2 of CLUBS, Q of DIAMONDS, 2 of CLUBS, 5 of SPADES, Q of DIAMONDS, K of HE
-ARTS, K of HEARTS, 5 of SPADES, 5 of SPADES, A of DIAMONDS, 5 of SPADES, 5 of SP
-ADES, A of DIAMONDS, 5 of SPADES, A of DIAMONDS, 5 of SPADES, K of HEARTS, K of 
-HEARTS, 2 of CLUBS, K of HEARTS, 5 of SPADES, Q of DIAMONDS, Q of DIAMONDS, Q of
- DIAMONDS, K of HEARTS, 2 of CLUBS, 2 of CLUBS, 5 of SPADES, Q of DIAMONDS )
+Hand = (Q of DIAMONDS, K of HEARTS, 2 of CLUBS, 5 of SPADES, 2 of CLUBS, Q of DI
+AMONDS, K of HEARTS, 5 of SPADES, 5 of SPADES, 2 of CLUBS, A of DIAMONDS, 5 of S
+PADES, 2 of CLUBS, Q of DIAMONDS, 2 of CLUBS, 2 of CLUBS, K of HEARTS, 2 of CLUB
+S, Q of DIAMONDS, A of DIAMONDS, K of HEARTS, K of HEARTS, 2 of CLUBS, K of HEAR
+TS, A of DIAMONDS, Q of DIAMONDS, 2 of CLUBS, 5 of SPADES, Q of DIAMONDS, 5 of S
+PADES, 5 of SPADES, K of HEARTS, Q of DIAMONDS, 2 of CLUBS, 5 of SPADES, K of HE
+ARTS, K of HEARTS, 2 of CLUBS, 2 of CLUBS, K of HEARTS, Q of DIAMONDS, Q of DIAM
+ONDS, 2 of CLUBS, 5 of SPADES, 2 of CLUBS, 2 of CLUBS, 2 of CLUBS, K of HEARTS, 
+Q of DIAMONDS, 5 of SPADES, 5 of SPADES, 2 of CLUBS )
 
-Testing with k value 0: A of DIAMONDS
+Testing with k value 0: Q of DIAMONDS
 Testing with k value 55: **invalid**
 
-Testing playCard(): Playing: Q of DIAMONDS
+Testing playCard(): Playing: 2 of CLUBS
 Playing: 5 of SPADES
+Playing: 5 of SPADES
+Playing: Q of DIAMONDS
+Playing: K of HEARTS
 Playing: 2 of CLUBS
 Playing: 2 of CLUBS
-Playing: K of HEARTS
-Playing: Q of DIAMONDS
-Playing: Q of DIAMONDS
-Playing: Q of DIAMONDS
-Playing: 5 of SPADES
-Playing: K of HEARTS
 Playing: 2 of CLUBS
-Playing: K of HEARTS
-Playing: K of HEARTS
-Playing: 5 of SPADES
-Playing: A of DIAMONDS
-Playing: 5 of SPADES
-Playing: A of DIAMONDS
-Playing: 5 of SPADES
-Playing: 5 of SPADES
-Playing: A of DIAMONDS
-Playing: 5 of SPADES
-Playing: 5 of SPADES
-Playing: K of HEARTS
-Playing: K of HEARTS
-Playing: Q of DIAMONDS
 Playing: 5 of SPADES
 Playing: 2 of CLUBS
 Playing: Q of DIAMONDS
-Playing: 2 of CLUBS
-Playing: A of DIAMONDS
 Playing: Q of DIAMONDS
 Playing: K of HEARTS
-Playing: A of DIAMONDS
-Playing: K of HEARTS
-Playing: Q of DIAMONDS
-Playing: K of HEARTS
-Playing: Q of DIAMONDS
-Playing: Q of DIAMONDS
-Playing: A of DIAMONDS
 Playing: 2 of CLUBS
 Playing: 2 of CLUBS
-Playing: Q of DIAMONDS
-Playing: Q of DIAMONDS
-Playing: 5 of SPADES
 Playing: K of HEARTS
 Playing: K of HEARTS
 Playing: 5 of SPADES
+Playing: 2 of CLUBS
+Playing: Q of DIAMONDS
+Playing: K of HEARTS
+Playing: 5 of SPADES
+Playing: 5 of SPADES
+Playing: Q of DIAMONDS
 Playing: 5 of SPADES
 Playing: 2 of CLUBS
+Playing: Q of DIAMONDS
 Playing: A of DIAMONDS
+Playing: K of HEARTS
+Playing: 2 of CLUBS
+Playing: K of HEARTS
+Playing: K of HEARTS
+Playing: A of DIAMONDS
+Playing: Q of DIAMONDS
+Playing: 2 of CLUBS
+Playing: K of HEARTS
+Playing: 2 of CLUBS
+Playing: 2 of CLUBS
+Playing: Q of DIAMONDS
+Playing: 2 of CLUBS
 Playing: 5 of SPADES
 Playing: A of DIAMONDS
+Playing: 2 of CLUBS
+Playing: 5 of SPADES
+Playing: 5 of SPADES
+Playing: K of HEARTS
+Playing: Q of DIAMONDS
+Playing: 2 of CLUBS
+Playing: 5 of SPADES
+Playing: 2 of CLUBS
+Playing: K of HEARTS
+Playing: Q of DIAMONDS
 
 Printing Hand Contents (Should Be Empty): (
 
-4Begin Phase Three Test:
+Begin Phase Three Test:
 Test with 2 pack deck:
 A of DIAMONDS / A of HEARTS / A of SPADES / A of CLUBS / K of DIAMONDS / K of HE
 ARTS / K of SPADES / K of CLUBS / Q of DIAMONDS / Q of HEARTS / Q of SPADES / Q 
@@ -668,25 +668,25 @@ CLUBS / 3 of DIAMONDS / 3 of HEARTS / 3 of SPADES / 3 of CLUBS / 2 of DIAMONDS /
 
 Shuffle two packs deck.
 
-4 of SPADES / A of HEARTS / 4 of SPADES / A of CLUBS / 5 of SPADES / Q of CLUBS 
-/ A of HEARTS / 8 of DIAMONDS / 8 of CLUBS / Q of CLUBS / 2 of SPADES / 2 of DIA
-MONDS / 2 of HEARTS / 5 of HEARTS / T of HEARTS / J of CLUBS / 2 of CLUBS / 6 of
- SPADES / 7 of DIAMONDS / T of CLUBS / J of DIAMONDS / 8 of CLUBS / Q of SPADES 
-/ T of SPADES / 6 of CLUBS / 9 of DIAMONDS / J of HEARTS / 8 of HEARTS / 3 of SP
-ADES / 7 of DIAMONDS / 9 of CLUBS / A of SPADES / T of DIAMONDS / 6 of HEARTS / 
-6 of SPADES / 8 of HEARTS / T of DIAMONDS / 7 of HEARTS / K of CLUBS / 4 of CLUB
-S / 4 of DIAMONDS / A of CLUBS / 6 of DIAMONDS / 8 of SPADES / 9 of DIAMONDS / 5
- of DIAMONDS / 5 of HEARTS / 4 of HEARTS / 7 of CLUBS / J of DIAMONDS / 3 of DIA
-MONDS / 9 of HEARTS / 9 of HEARTS / K of SPADES / 8 of DIAMONDS / 7 of HEARTS / 
-Q of DIAMONDS / Q of SPADES / J of HEARTS / 3 of HEARTS / 6 of CLUBS / Q of HEAR
-TS / J of CLUBS / Q of HEARTS / 8 of SPADES / K of SPADES / T of SPADES / 4 of C
-LUBS / 3 of DIAMONDS / 3 of SPADES / J of SPADES / T of CLUBS / 7 of CLUBS / 2 o
-f SPADES / 9 of SPADES / 9 of CLUBS / J of SPADES / A of DIAMONDS / A of DIAMOND
-S / K of DIAMONDS / 2 of HEARTS / 7 of SPADES / 2 of DIAMONDS / K of HEARTS / 6 
-of DIAMONDS / 4 of HEARTS / T of HEARTS / 9 of SPADES / 5 of SPADES / 3 of HEART
-S / Q of DIAMONDS / 6 of HEARTS / 4 of DIAMONDS / 2 of CLUBS / K of CLUBS / 5 of
- CLUBS / 7 of SPADES / 5 of DIAMONDS / K of DIAMONDS / 3 of CLUBS / 3 of CLUBS /
- A of SPADES / K of HEARTS / 5 of CLUBS / 
+A of DIAMONDS / 8 of HEARTS / K of DIAMONDS / 6 of HEARTS / 2 of SPADES / A of C
+LUBS / T of SPADES / T of DIAMONDS / 9 of CLUBS / K of HEARTS / 4 of DIAMONDS / 
+A of CLUBS / 3 of SPADES / J of SPADES / J of SPADES / 6 of DIAMONDS / 9 of DIAM
+ONDS / J of CLUBS / Q of DIAMONDS / 5 of HEARTS / 9 of CLUBS / 5 of CLUBS / 2 of
+ SPADES / J of HEARTS / 8 of DIAMONDS / 7 of SPADES / Q of SPADES / 7 of DIAMOND
+S / 9 of SPADES / 9 of HEARTS / 9 of SPADES / 7 of CLUBS / 3 of HEARTS / 4 of DI
+AMONDS / A of HEARTS / 5 of DIAMONDS / 3 of CLUBS / 5 of HEARTS / 5 of SPADES / 
+3 of CLUBS / 7 of HEARTS / K of DIAMONDS / 3 of HEARTS / 4 of HEARTS / 6 of DIAM
+ONDS / 8 of HEARTS / K of SPADES / 2 of CLUBS / 3 of DIAMONDS / K of SPADES / 5 
+of SPADES / Q of HEARTS / 2 of HEARTS / A of SPADES / 2 of DIAMONDS / 7 of CLUBS
+ / 8 of CLUBS / J of DIAMONDS / 8 of SPADES / K of CLUBS / T of SPADES / 3 of SP
+ADES / Q of CLUBS / 4 of HEARTS / T of DIAMONDS / 2 of HEARTS / Q of DIAMONDS / 
+A of SPADES / J of DIAMONDS / T of HEARTS / 9 of HEARTS / A of DIAMONDS / 2 of D
+IAMONDS / 8 of CLUBS / 9 of DIAMONDS / 6 of SPADES / 8 of DIAMONDS / 4 of CLUBS 
+/ 4 of CLUBS / T of HEARTS / 7 of DIAMONDS / 7 of HEARTS / K of CLUBS / 8 of SPA
+DES / T of CLUBS / 2 of CLUBS / 6 of SPADES / 6 of CLUBS / K of HEARTS / 7 of SP
+ADES / J of CLUBS / 5 of DIAMONDS / 5 of CLUBS / Q of CLUBS / 4 of SPADES / A of
+ HEARTS / 3 of DIAMONDS / T of CLUBS / Q of HEARTS / J of HEARTS / 4 of SPADES /
+ 6 of CLUBS / Q of SPADES / 6 of HEARTS / 
 
 Test with 1 pack deck
 
@@ -703,16 +703,16 @@ PADES / 2 of CLUBS /
 
 Shuffle one packs deck.
 
-8 of HEARTS / J of HEARTS / 9 of HEARTS / 3 of DIAMONDS / Q of HEARTS / A of HEA
-RTS / 7 of HEARTS / 6 of CLUBS / Q of DIAMONDS / A of SPADES / T of DIAMONDS / Q
- of CLUBS / 5 of HEARTS / 4 of DIAMONDS / 8 of SPADES / 3 of CLUBS / 7 of CLUBS 
-/ T of HEARTS / 6 of SPADES / 5 of DIAMONDS / 3 of SPADES / K of CLUBS / 2 of CL
-UBS / 6 of HEARTS / J of CLUBS / J of DIAMONDS / K of HEARTS / 9 of SPADES / 4 o
-f SPADES / A of DIAMONDS / T of SPADES / Q of SPADES / 6 of DIAMONDS / 8 of CLUB
-S / 7 of SPADES / 9 of DIAMONDS / 4 of HEARTS / 2 of SPADES / 2 of DIAMONDS / 5 
-of CLUBS / 5 of SPADES / 4 of CLUBS / J of SPADES / A of CLUBS / T of CLUBS / 3 
-of HEARTS / K of SPADES / 7 of DIAMONDS / 8 of DIAMONDS / 2 of HEARTS / K of DIA
-MONDS / 9 of CLUBS / End Phase Three Test.
+5 of CLUBS / 5 of DIAMONDS / J of CLUBS / 6 of HEARTS / K of DIAMONDS / 5 of HEA
+RTS / T of HEARTS / 8 of SPADES / A of HEARTS / 4 of SPADES / 4 of DIAMONDS / 9 
+of CLUBS / 4 of CLUBS / J of HEARTS / Q of HEARTS / 8 of CLUBS / 2 of HEARTS / K
+ of SPADES / 7 of CLUBS / 5 of SPADES / Q of DIAMONDS / A of DIAMONDS / 6 of DIA
+MONDS / J of SPADES / 3 of SPADES / 9 of DIAMONDS / J of DIAMONDS / 7 of DIAMOND
+S / 7 of HEARTS / Q of CLUBS / T of SPADES / 4 of HEARTS / 9 of SPADES / 3 of DI
+AMONDS / 8 of DIAMONDS / 8 of HEARTS / K of HEARTS / 6 of CLUBS / Q of SPADES / 
+K of CLUBS / 2 of CLUBS / 9 of HEARTS / 3 of HEARTS / T of CLUBS / A of CLUBS / 
+7 of SPADES / 6 of SPADES / 3 of CLUBS / 2 of DIAMONDS / T of DIAMONDS / 2 of SP
+ADES / A of SPADES / End Phase Three Test.
 
 Begin Phase Four Test: 
 Enter in the number of players (between 1 and 10): 
@@ -731,15 +731,16 @@ of CLUBS, 5 of SPADES, 4 of HEARTS, 3 of DIAMONDS, 3 of CLUBS, 2 of SPADES )
 
 Resetting Deck and Shuffling: 
 Printing out shuffled player hands: 
-Player 1: (K of DIAMONDS, 7 of HEARTS, 3 of CLUBS, Q of HEARTS, 2 of HEARTS, 3 o
-f HEARTS, T of CLUBS, 9 of HEARTS, A of SPADES, 6 of HEARTS, 6 of DIAMONDS, 9 of
- CLUBS, 5 of DIAMONDS, T of SPADES, A of HEARTS, T of HEARTS, 7 of DIAMONDS, 3 o
-f SPADES )
-Player 2: (5 of CLUBS, 2 of CLUBS, J of CLUBS, 2 of DIAMONDS, 5 of HEARTS, 4 of 
-HEARTS, Q of CLUBS, Q of SPADES, K of CLUBS, 4 of SPADES, 3 of DIAMONDS, 8 of CL
-UBS, 9 of SPADES, 4 of CLUBS, A of DIAMONDS, 4 of DIAMONDS, 9 of DIAMONDS )
-Player 3: (J of DIAMONDS, K of HEARTS, 6 of SPADES, K of SPADES, J of SPADES, J 
-of HEARTS, 7 of CLUBS, 8 of HEARTS, 8 of SPADES, Q of DIAMONDS, A of CLUBS, T of
- DIAMONDS, 5 of SPADES, 8 of DIAMONDS, 7 of SPADES, 6 of CLUBS, 2 of SPADES )
+Player 1: (3 of SPADES, A of CLUBS, K of SPADES, 2 of CLUBS, Q of SPADES, Q of H
+EARTS, A of DIAMONDS, 6 of CLUBS, 4 of DIAMONDS, K of HEARTS, 8 of HEARTS, J of 
+SPADES, 5 of HEARTS, J of HEARTS, T of CLUBS, 7 of CLUBS, 7 of DIAMONDS, 5 of DI
+AMONDS )
+Player 2: (J of DIAMONDS, 6 of DIAMONDS, K of CLUBS, 3 of CLUBS, 7 of HEARTS, T 
+of DIAMONDS, K of DIAMONDS, T of SPADES, Q of CLUBS, T of HEARTS, 2 of DIAMONDS,
+ 6 of SPADES, 2 of SPADES, 8 of DIAMONDS, 4 of CLUBS, 9 of HEARTS, 4 of SPADES )
+Player 3: (Q of DIAMONDS, 5 of CLUBS, 6 of HEARTS, 4 of HEARTS, 8 of CLUBS, 9 of
+ DIAMONDS, 2 of HEARTS, J of CLUBS, 3 of HEARTS, 3 of DIAMONDS, A of HEARTS, 9 o
+f SPADES, 5 of SPADES, 7 of SPADES, 9 of CLUBS, 8 of SPADES, A of SPADES )
 Testing Complete.
+
 *******************************************************************************/
