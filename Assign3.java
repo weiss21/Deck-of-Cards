@@ -325,7 +325,8 @@ class Card
       {
          return false;
       } 
-      return (this.value == card.value && this.suit == card.suit);
+      return (this.value == card.value && this.suit == card.suit && this.errorFlag == card.errorFlag);
+      //equals checks errorflag as well
    }
 }
 
@@ -384,6 +385,10 @@ class Hand
     */ 
    public Card playCard()
    {
+      if(numCards <= 0) //check for no more cards in the hand and then do something like return a bad card
+      {
+        return new Card('x', Card.Suit.SPADES);
+      }
       Card returnCard = this.myCards[this.numCards - 1];
       this.myCards[this.numCards - 1] = null;
       this.numCards--;
